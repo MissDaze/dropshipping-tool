@@ -1,0 +1,22 @@
+/* Custom styles if needed, Tailwind CSS is loaded via CDN in index.html */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Additional custom styles can be added here if Tailwind doesn't cover specific needs */
+body {
+    background-color: #f9fafb;
+}
+
+/* Override or extend Tailwind classes if necessary */
+.text-indigo-600 {
+    color: #4f46e5;
+}
+
+.bg-indigo-600 {
+    background-color: #4f46e5;
+}
+
+.hover\:bg-indigo-700:hover {
+    background-color: #4338ca;
+}
